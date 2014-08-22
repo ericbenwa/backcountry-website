@@ -510,4 +510,14 @@ function wp_bootstrap_wp_title( $title, $sep ) {
 }
 add_filter( 'wp_title', 'wp_bootstrap_wp_title', 10, 2 );
 
+//Page Slug Body Class
+function add_slug_body_class( $classes ) {
+global $post;
+if ( isset( $post ) ) {
+$classes[] = $post->post_type . '-' . $post->post_name;
+}
+return $classes;
+}
+add_filter( 'body_class', 'add_slug_body_class' );
+
 ?>

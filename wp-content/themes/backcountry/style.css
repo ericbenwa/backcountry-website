@@ -8,16 +8,63 @@
  Version:        1.0.0
 */
 
+@font-face {
+    font-family: Edmondsans-Regular;
+    src: url(fonts/Edmondsans-Regular.otf);
+}
+
+@font-face {
+    font-family: Edmondsans-Bold;
+    src: url(fonts/Edmondsans-Bold.otf);
+}
+
 body {
 	background-color: #000;
 	color: #999;
+	font-family: Edmondsans-Regular, Helvetica, Sans-Serif;
 	font-size: 12px;
 	line-height: 23px;
 }
 
 h1 {
 	color: #00adef;
+	font-family: Edmondsans-Bold;
 	font-size: 40px;
 	line-height: 45px;
 	font-weight: bold;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+}
+
+h1 span {
+	color: #FFF;
+	display: block;
+}
+
+p.lead {
+	color: #999;
+	font-family: Edmondsans-Regular, Helvetica, Sans-Serif;
+	font-size: 12px;
+	line-height: 23px;
+}
+
+#main article {
+	border: none !important;
+}
+
+footer hr {
+	border-top: none !important;
+}
+
+.post_content img {
+	margin-bottom: 25px;
+}
+
+/* About */
+.page-about .post_content img {
+	margin-bottom: 5px;
+}
+
+.page-about .post_content span {
+	color: #FFF;
 }
