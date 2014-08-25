@@ -1,6 +1,9 @@
 <?php get_header(); ?>
 			
 			<div id="content" class="clearfix row">
+
+				<div id="leftsidebar" class="col-sm-2">
+				</div>
 			
 				<div id="main" class="col-sm-8 clearfix" role="main">
 

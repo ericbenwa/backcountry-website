@@ -24,15 +24,20 @@ body {
 	font-family: Edmondsans-Regular, Helvetica, Sans-Serif;
 	font-size: 12px;
 	line-height: 23px;
+	padding-top: 10px;
 }
 
-h1 {
+.container {
+	max-width: 926px;
+}
+
+h1, .h2 {
 	color: #00adef;
 	font-family: Edmondsans-Bold;
 	font-size: 40px;
 	line-height: 45px;
 	font-weight: bold;
-	margin-bottom: 30px;
+	margin: -2px 0 30px;
 	text-transform: uppercase;
 }
 
@@ -48,6 +53,10 @@ p.lead {
 	line-height: 23px;
 }
 
+p {
+	margin-bottom: 30px;
+}
+
 #main article {
 	border: none !important;
 }
@@ -60,11 +69,117 @@ footer hr {
 	margin-bottom: 25px;
 }
 
+#leftsidebar {
+	height: 378px;
+}
+
+/* Navigation */
+.navbar {
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.navbar-default {
+	background: none !important;
+	border: none !important;
+	position: relative;
+}
+
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav > li.active > a {
+	background: none !important;
+	color: #FFF;
+}
+
+#menu-main-menu {
+	margin-top: 59px;
+	-webkit-transform: rotate(-7deg);
+	-moz-transform: rotate(-7deg);
+	-ms-transform: rotate(-7deg);
+}
+
 /* About */
+.page-about #leftsidebar {
+	background: url(images/sidebar-text-about.png) no-repeat top left;
+}
+
 .page-about .post_content img {
 	margin-bottom: 5px;
 }
 
 .page-about .post_content span {
 	color: #FFF;
+}
+
+/* Maule */
+.page-maule #leftsidebar {
+	background: url(images/sidebar-text-maule.png) no-repeat top left;
+}
+
+/* Parts */
+.page-parts #leftsidebar {
+	background: url(images/sidebar-text-parts.png) no-repeat top left;
+}
+
+.page-parts h1 {
+	font-size: 21px;
+	line-height: 21px;
+	margin-bottom: 5px;
+}
+
+.page-parts .post_content span {
+	background-color: #333;
+	border-radius: 3px;
+	color: #FFF;
+	font-family: Edmondsans-Bold;
+	display: inline-block;
+	min-width: 88px;
+	padding: 4px 10px 2px;
+	text-align: center;
+}
+
+/* Listings */
+.page-listings #leftsidebar,
+.page-child #leftsidebar {
+	background: url(images/sidebar-text-listings.png) no-repeat top left;
+}
+
+.page-listings h1 {
+	font-size: 21px;
+	line-height: 21px;
+	margin-bottom: 5px;
+}
+
+.page-listings .post_content span {
+	background-color: #00adef;
+	border-radius: 3px;
+	color: #FFF;
+	font-family: Edmondsans-Bold;
+	display: inline-block;
+	min-width: 88px;
+	padding: 4px 10px 2px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.page-listings .post_content span a,
+.page-listings .post_content span a:visited {
+	color: #FFF;
+}
+
+.page-child h1 {
+	font-size: 21px;
+	line-height: 21px;
+	margin-bottom: 5px;
+}
+
+.page-child .post_content strong {
+	color: #FFF;
+	font-family: Edmondsans-Bold;
+}
+
+/*  Blog */
+.page-blog #leftsidebar {
+	background: url(images/sidebar-text-blog.png) no-repeat top left;
 }
