@@ -8,20 +8,10 @@
  Version:        1.0.0
 */
 
-@font-face {
-    font-family: Edmondsans-Regular;
-    src: url(fonts/Edmondsans-Regular.otf);
-}
-
-@font-face {
-    font-family: Edmondsans-Bold;
-    src: url(fonts/Edmondsans-Bold.otf);
-}
-
 body {
 	background-color: #000;
 	color: #999;
-	font-family: Edmondsans-Regular, Helvetica, Sans-Serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 12px;
 	line-height: 23px;
 	padding-top: 10px;
@@ -33,10 +23,10 @@ body {
 
 h1, .h2 {
 	color: #00adef;
-	font-family: Edmondsans-Bold;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 40px;
 	line-height: 45px;
-	font-weight: bold;
+	font-weight: 600;
 	margin: -2px 0 30px;
 	text-transform: uppercase;
 }
@@ -48,7 +38,7 @@ h1 span {
 
 p.lead {
 	color: #999;
-	font-family: Edmondsans-Regular, Helvetica, Sans-Serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 12px;
 	line-height: 23px;
 }
@@ -76,7 +66,7 @@ footer hr {
 /* Navigation */
 .navbar {
 	font-size: 16px;
-	font-weight: bold;
+	font-weight: 800;
 	text-transform: uppercase;
 }
 
@@ -132,7 +122,8 @@ footer hr {
 	background-color: #333;
 	border-radius: 3px;
 	color: #FFF;
-	font-family: Edmondsans-Bold;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
 	display: inline-block;
 	min-width: 88px;
 	padding: 4px 10px 2px;
@@ -155,7 +146,8 @@ footer hr {
 	background-color: #00adef;
 	border-radius: 3px;
 	color: #FFF;
-	font-family: Edmondsans-Bold;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
 	display: inline-block;
 	min-width: 88px;
 	padding: 4px 10px 2px;
@@ -176,7 +168,8 @@ footer hr {
 
 .page-child .post_content strong {
 	color: #FFF;
-	font-family: Edmondsans-Bold;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
 }
 
 /*  Blog */

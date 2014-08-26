@@ -30,7 +30,8 @@
 			<!-- respond.js -->
 		<!--[if lt IE 9]>
 		          <script type='text/javascript' src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
-		<![endif]-->	
+		<![endif]-->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600' rel='stylesheet' type='text/css'>
 	</head>
 	
 	<body <?php body_class(); ?>>
